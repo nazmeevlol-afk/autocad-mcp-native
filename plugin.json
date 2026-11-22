@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cad-agent",
+  "version": "0.1.0",
+  "description": "Исполнительные схемы по образцу и проверяемые расчёты объёмов работ в AutoCAD через MCP.",
+  "author": { "name": "nazmeevlol-afk" },
+  "repository": "https://github.com/nazmeevlol-afk/autocad-mcp-native",
+  "license": "MIT",
+  "keywords": ["autocad", "as-built", "quantity-takeoff", "mcp"],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "CAD Agent",
+        "shortDescription": "Исполнительные схемы и объёмы работ",
+        "longDescription": "Создание схем по вашему образцу, измерение геометрии DWG и расчёт объёмов с формулами и источниками данных. Требует локального AutoCAD и установленного моста.",
+        "developerName": "nazmeevlol-afk",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Создай исполнительную схему по моему образцу и фактическим данным.",
+          "Рассчитай объёмы работ по чертежу и покажи исходные размеры и формулы."
+        ]
+      }
+    }
+  }
+}

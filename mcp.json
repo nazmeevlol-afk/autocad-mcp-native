@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "autocad": {
+      "type": "stdio",
+      "command": "powershell.exe",
+      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${PLUGIN_ROOT}/scripts/Start-CadAgentMcp.ps1"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

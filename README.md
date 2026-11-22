@@ -1,5 +1,9 @@
 # AutoCAD MCP Native Bridge
 
+## CAD Agent — исполнительные схемы и объёмы работ
+
+Этот форк содержит персональный плагин **CAD Agent** для Codex с русскоязычными инструкциями по созданию исполнительных схем по образцу и проверяемому расчёту объёмов работ. Установка и примеры запросов приведены в [docs/CAD-AGENT-RU.md](docs/CAD-AGENT-RU.md). Исходный мост предоставлен проектом [Yimmingyang/autocad-mcp-native](https://github.com/Yimmingyang/autocad-mcp-native) под лицензией MIT.
+
 [![Node tests](https://github.com/yanmiong/autocad-mcp-native/actions/workflows/ci.yml/badge.svg)](https://github.com/yanmiong/autocad-mcp-native/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [中文](#中文) | [English](#english)
 
