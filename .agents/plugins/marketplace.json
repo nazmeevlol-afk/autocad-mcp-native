@@ -1,0 +1,12 @@
+{
+  "name": "nazmeev-cad",
+  "interface": { "displayName": "Nazmeev CAD" },
+  "plugins": [
+    {
+      "name": "cad-agent",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
